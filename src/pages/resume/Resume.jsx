@@ -11,8 +11,8 @@ const Resume = () => {
         <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400">Resume
         </h1>
     </div>
-    <a href={filePDF}>My Resume</a>
-    <div className='items-center sm:w-5/5 md:w-4/5 lg:w-3/5'>
+    <a href={filePDF} className="text-4xl py-2 text-teal-600 ml-2"><u>My Resume</u> </a>
+    <div className='items-center py-2 sm:w-5/5 md:w-4/5 lg:w-3/5'>
     <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.3.122/build/pdf.worker.min.js">
         <Viewer fileUrl={filePDF} />;
     </Worker>
