@@ -1,9 +1,10 @@
 import React from 'react'
 import './home.css'
 import {
-    AiFillTwitterCircle, 
+    AiFillGithub, 
     AiFillLinkedin, 
-    AiFillYoutube
+    AiFillFacebook,
+    AiFillInstagram
   } from "react-icons/ai"
 
   import image from '../../assets/professional_pic.png'
@@ -18,10 +19,19 @@ const Home = () => {
         Just got my Full-Stack developer certificate from MSU. I also am a semester away from achieving my Associate&apos;s Degree in IT: Web & Software Development from Western Technical College.
       </p>
     </div>
-    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300">
-      <AiFillTwitterCircle/>
-      <AiFillLinkedin/>
-      <AiFillYoutube/>
+    <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-300">
+      <a href="https://github.com/vegascruz" target="_blank">  
+        <AiFillGithub className='text-black  hover:animate-bounce'/> 
+      </a>
+      <a href="https://www.instagram.com/vegascruz5/" target="_blank">  
+        <AiFillInstagram className='text-pink-600 hover:animate-bounce'/> 
+      </a>
+      <a href="https://www.linkedin.com/in/vegas-cruz-7b0a48157" target="_blank">
+        <AiFillLinkedin className='text-sky-600 hover:animate-bounce'/>
+      </a>
+      <a href="https://www.facebook.com/vegas.cruz.5" target="_blank">
+        <AiFillFacebook className='text-blue-900 hover:animate-bounce'/>
+      </a>
     </div>
     <div className="relative mx-auto rounded-full">
       <img src={image} alt="pic of me" className="relative mx-auto h-full w-3/12 rounded-full"/>
