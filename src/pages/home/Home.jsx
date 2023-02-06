@@ -3,8 +3,8 @@ import './home.css'
 import {
     AiFillGithub, 
     AiFillLinkedin, 
-    AiFillFacebook,
-    AiFillInstagram
+    /*AiFillFacebook,
+    AiFillInstagram*/
   } from "react-icons/ai"
 
   import image from '../../assets/professional_pic.png'
@@ -23,15 +23,19 @@ const Home = () => {
       <a href="https://github.com/vegascruz" target="_blank">  
         <AiFillGithub className='text-black  hover:animate-bounce'/> 
       </a>
+      {/* instagram link (add after employment)  
       <a href="https://www.instagram.com/vegascruz5/" target="_blank">  
         <AiFillInstagram className='text-pink-600 hover:animate-bounce'/> 
       </a>
+      */}
       <a href="https://www.linkedin.com/in/vegas-cruz-7b0a48157" target="_blank">
         <AiFillLinkedin className='text-sky-600 hover:animate-bounce'/>
       </a>
+      {/*
       <a href="https://www.facebook.com/vegas.cruz.5" target="_blank">
         <AiFillFacebook className='text-blue-900 hover:animate-bounce'/>
       </a>
+      */}
     </div>
     <div className="relative mx-auto rounded-full">
       <img src={image} alt="pic of me" className="relative mx-auto h-full w-3/12 rounded-full"/>

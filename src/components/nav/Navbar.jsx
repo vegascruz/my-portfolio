@@ -13,8 +13,9 @@ const Navbar = () => {
             <ul className='flex items-center'>
                 <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/">Home</Link></li>
                 <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/About">About</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/Contact">Contact</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/MyWork">My Work</Link></li>
                 <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/Resume">Resume</Link></li>
+                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/Contact">Contact</Link></li>
             </ul>
         </nav>
     </>
