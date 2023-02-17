@@ -1,0 +1,38 @@
+.sideBar{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    /* will turn to 'flex' when the hamburger icon is clicked */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2d2d2d;
+    opacity: 0.95;
+}
+
+.sideBar ul li {
+    color: white;
+}
+
+.showSideBar{
+    height: 100%;
+    width: 100%;
+    position: flex;
+    right: 0;
+    /* will turn to 'flex' when the hamburger icon is clicked */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2d2d2d;
+    opacity: 0.95;
+}
+
+#nav-icon:hover + .sideBar{
+    display: none;
+}
+

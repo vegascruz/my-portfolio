@@ -1,23 +1,49 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
+import SideBar from "../sidebar/sideBar.js" 
+import '../sidebar/sidebar.css'
 
 
 const Navbar = () => {
+
+  const sideBarRef = useRef(null);
+
+  function handleClick() {
+    console.log(sideBarRef);
+  }
+
+  useEffect(() => {
+      console.log(sideBarRef);
+  }, [sideBarRef])
+
   return (
     <>
-        <nav class='py-10 pl-2.5 pr-2.5 mb-12 flex justify-between w-screen'>
-        <Link to="/">
-          <h1 className='text-xl'>Developed by Vegas Cruz</h1>
+      <div>
+
+        <Link class="logoContainer" to="/">
+          <h1 class="logo">Developed by <span class="name">Vegas Cruz</span></h1>
         </Link>
-            <ul className='flex items-center'>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/">Home</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/About">About</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/MyWork">My Work</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/Resume">Resume</Link></li>
-                <li><Link className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-pink-500 hover:to-yellow-500 active:from-red-700 active:to-orange-600" to="/Contact">Contact</Link></li>
-            </ul>
+        <span id="hamburger">
+          <label id="nav-icon1" for="nav-menu1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </span>
+        <span id='x'>
+          <SideBar class="sideBar" id="sideBar" ref={sideBarRef} />
+        </span>
+        <nav class="navBar">
+          <ul>
+              <li><Link class = "links" to="/">Home</Link></li>
+              <li><Link class = "links" to="/About">About</Link></li>
+              <li><Link class = "links" to="/MyWork">My Work</Link></li>
+              <li><Link class = "links" to="/Resume">Resume</Link></li>
+              <li><Link class = "links" to="/Contact">Contact</Link></li>
+          </ul>
         </nav>
+      </div>
     </>
   )
 }

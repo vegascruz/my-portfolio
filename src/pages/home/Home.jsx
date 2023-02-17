@@ -37,8 +37,8 @@ const Home = () => {
       </a>
       */}
     </div>
-    <div className="relative mx-auto rounded-full">
-      <img src={image} alt="pic of me" className="relative mx-auto h-full w-3/12 rounded-full"/>
+    <div className="mx-auto rounded-full">
+      <img src={image} alt="pic of me" className="mx-auto h-full w-3/12 rounded-full"/>
     </div>
   <div className='text-center'>
     <h3 className='text-3xl py-1'> Services I offer</h3>
