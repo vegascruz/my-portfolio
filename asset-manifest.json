@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.9620379a.css",
+    "main.css": "/My-Portfolio/static/css/main.e59ab9d7.css",
     "main.js": "/My-Portfolio/static/js/main.9d260dd6.js",
     "static/media/IT Resume.pdf": "/My-Portfolio/static/media/IT Resume.7d2ce04d19da6ad0d04e.pdf",
     "static/media/professional_pic.png": "/My-Portfolio/static/media/professional_pic.fa45a4a6e87847be40e4.png",
@@ -10,11 +10,11 @@
     "static/media/MSUPasswordGenerator.png": "/My-Portfolio/static/media/MSUPasswordGenerator.3935c533db1449ae0ee4.png",
     "static/media/MSUNoteTaker.png": "/My-Portfolio/static/media/MSUNoteTaker.e1ddb44f9573e41761fc.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.9620379a.css.map": "/My-Portfolio/static/css/main.9620379a.css.map",
+    "main.e59ab9d7.css.map": "/My-Portfolio/static/css/main.e59ab9d7.css.map",
     "main.9d260dd6.js.map": "/My-Portfolio/static/js/main.9d260dd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9620379a.css",
+    "static/css/main.e59ab9d7.css",
     "static/js/main.9d260dd6.js"
   ]
 }
