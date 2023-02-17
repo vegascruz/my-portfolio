@@ -21,6 +21,9 @@ body{
     padding-top: 15px;
 }
 
+#x{
+    display: none;
+}
 .name{
     color: #00cccc;
     font-size: 24px;
@@ -165,8 +168,8 @@ cursor:pointer;
         margin-bottom: 0px;
     }
 
-    #hamburger:focus + #x{
-        display: none;
+    #hamburger:hover + #x{
+        display: flex;
     }
 
     #nav-icon1:hover > span:nth-child(1) {
