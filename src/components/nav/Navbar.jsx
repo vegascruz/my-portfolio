@@ -1,27 +1,23 @@
 import React from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
-import SideBar from "../sidebar/sideBar.js" 
+import SideBar from "../sidebar/sideBar.jsx" 
 import '../sidebar/sidebar.css'
-import $ from 'jquery'
 
 
 const Navbar = () => {
 
 
-$('#hamburger').on('click', function(){
-  $('#x').addClass('active');
-})
 
   return (
     <>
       <div>
 
-        <Link class="logoContainer" to="/">
+        <Link class="logoContainer" to="/My-Portfolio/">
           <h1 class="logo">Developed by <span class="name">Vegas Cruz</span></h1>
         </Link>
         <span id="hamburger">
-          <label id="nav-icon1" for="nav-menu1" /*onClick={myFunction}*/>
+          <label id="nav-icon1" for="nav-menu1">
             <span></span>
             <span></span>
             <span></span>
