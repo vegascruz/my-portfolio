@@ -13,11 +13,11 @@ const App = () => {
             <Router>
             <Nav />
               <Routes>
-                  <Route exact path='/' element={< Home />}></Route>  
-                  <Route exact path='/About' element={< About />}></Route>  
-                  <Route exact path='/Contact' element={< Contact />}></Route>
-                  <Route exact path='/MyWork' element={< MyWork />}></Route>  
-                  <Route exact path='/Resume' element={< Resume />}></Route>    
+                  <Route exact path='/My-Portfolio/' element={< Home />}></Route>  
+                  <Route exact path='/My-Portfolio/About' element={< About />}></Route>  
+                  <Route exact path='/My-Portfolio/Contact' element={< Contact />}></Route>
+                  <Route exact path='/My-Portfolio/MyWork' element={< MyWork />}></Route>  
+                  <Route exact path='/My-Portfolio/Resume' element={< Resume />}></Route>    
               </Routes>  
             </Router>
         </div>
