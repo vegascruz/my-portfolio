@@ -32,11 +32,11 @@ $('#hamburger').on('click', function(){
         </span>
         <nav class="navBar">
           <ul>
-              <li><Link class = "links" to="/">Home</Link></li>
-              <li><Link class = "links" to="/About">About</Link></li>
-              <li><Link class = "links" to="/MyWork">My Work</Link></li>
-              <li><Link class = "links" to="/Resume">Resume</Link></li>
-              <li><Link class = "links" to="/Contact">Contact</Link></li>
+              <li><Link class = "links" to="/My-Portfolio/">Home</Link></li>
+              <li><Link class = "links" to="/My-Portfolio/About">About</Link></li>
+              <li><Link class = "links" to="/My-Portfolio/Contact">My Work</Link></li>
+              <li><Link class = "links" to="/My-Portfolio/MyWork">Resume</Link></li>
+              <li><Link class = "links" to="/My-Portfolio/Resume">Contact</Link></li>
           </ul>
         </nav>
       </div>
