@@ -29,7 +29,7 @@ const MyWork = () => {
     <>
         <h1 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400 text-center">My Work</h1>
         <div>
-            <div style={containerStyles}>
+            <div style={containerStyles} className="containerStyles">
                     <ImageSlider slides={slides}/>
             </div>
         </div>

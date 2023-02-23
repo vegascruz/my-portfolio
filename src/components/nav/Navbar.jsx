@@ -1,21 +1,17 @@
-import React, {useRef, useEffect} from 'react'
+import React from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
 import SideBar from "../sidebar/sideBar.js" 
 import '../sidebar/sidebar.css'
+import $ from 'jquery'
 
 
 const Navbar = () => {
 
-  const sideBarRef = useRef(null);
 
-  function handleClick() {
-    console.log(sideBarRef);
-  }
-
-  useEffect(() => {
-      console.log(sideBarRef);
-  }, [sideBarRef])
+$('#hamburger').on('click', function(){
+  $('#x').addClass('active');
+})
 
   return (
     <>
@@ -25,14 +21,14 @@ const Navbar = () => {
           <h1 class="logo">Developed by <span class="name">Vegas Cruz</span></h1>
         </Link>
         <span id="hamburger">
-          <label id="nav-icon1" for="nav-menu1">
+          <label id="nav-icon1" for="nav-menu1" /*onClick={myFunction}*/>
             <span></span>
             <span></span>
             <span></span>
           </label>
         </span>
         <span id='x'>
-          <SideBar class="sideBar" id="sideBar" ref={sideBarRef} />
+          <SideBar class="sideBar" id="sideBar"/>
         </span>
         <nav class="navBar">
           <ul>

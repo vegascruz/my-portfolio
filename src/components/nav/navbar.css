@@ -1,6 +1,10 @@
 body{
     width: 100%;
 }
+
+.active{
+    display: flex;
+}
 .navBar{
     display: inline-block;
     justify-content: space-between;
@@ -168,9 +172,9 @@ cursor:pointer;
         margin-bottom: 0px;
     }
 
-    #hamburger:hover + #x{
+    /* #hamburger:hover + #x{
         display: flex;
-    }
+    } */
 
     #nav-icon1:hover > span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
