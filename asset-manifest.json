@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.75056edf.css",
-    "main.js": "/My-Portfolio/static/js/main.4ada861b.js",
+    "main.css": "/My-Portfolio/static/css/main.6526fac6.css",
+    "main.js": "/My-Portfolio/static/js/main.e351a441.js",
     "static/media/IT Resume.pdf": "/My-Portfolio/static/media/IT Resume.7d2ce04d19da6ad0d04e.pdf",
     "static/media/professional_pic.png": "/My-Portfolio/static/media/professional_pic.fa45a4a6e87847be40e4.png",
     "static/media/MSUWorkDayScheduler.png": "/My-Portfolio/static/media/MSUWorkDayScheduler.51a342e2e15ae7c12639.png",
@@ -10,11 +10,11 @@
     "static/media/MSUPasswordGenerator.png": "/My-Portfolio/static/media/MSUPasswordGenerator.3935c533db1449ae0ee4.png",
     "static/media/MSUNoteTaker.png": "/My-Portfolio/static/media/MSUNoteTaker.e1ddb44f9573e41761fc.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.75056edf.css.map": "/My-Portfolio/static/css/main.75056edf.css.map",
-    "main.4ada861b.js.map": "/My-Portfolio/static/js/main.4ada861b.js.map"
+    "main.6526fac6.css.map": "/My-Portfolio/static/css/main.6526fac6.css.map",
+    "main.e351a441.js.map": "/My-Portfolio/static/js/main.e351a441.js.map"
   },
   "entrypoints": [
-    "static/css/main.75056edf.css",
-    "static/js/main.4ada861b.js"
+    "static/css/main.6526fac6.css",
+    "static/js/main.e351a441.js"
   ]
 }
