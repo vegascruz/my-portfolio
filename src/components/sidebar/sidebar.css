@@ -8,31 +8,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: #2d2d2d;
-    opacity: 0.95;
+    opacity: 0.97;
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: all 0.4s;
 }
 
-.sideBar ul li {
+.sideBar li {
+    list-style: none;
     color: white;
+    display: flex;
+    font-weight:bold;
+    gap: 1rem;
+    font-size: 36px;
+    margin: 8px;
+    padding: 8px;
 }
 
-.showSideBar{
-    height: 100%;
-    width: 100%;
-    position: flex;
-    right: 0;
-    /* will turn to 'flex' when the hamburger icon is clicked */
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    background-color: #2d2d2d;
-    opacity: 0.95;
+.sideBar li:hover{
+    background-image: linear-gradient(to right, #00cccc, #00b3b3);
+    color: white;
+    border-radius: 10px;
 }
 
-#nav-icon:hover + .sideBar{
-    display: none;
+.sideBar--open{
+    transform: translateX(0%);
 }
+
 

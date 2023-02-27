@@ -13,9 +13,9 @@ const Home = () => {
   return (
     <section>
     <div className='text-center p-10'>
-      <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400">Vegas Cruz</h2>
+      <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400" id="title">Vegas Cruz</h2>
       <h3 className="text-2xl py-2">Full Stack Developer from Michigan State University</h3>
-      <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-300">
+      <p className="text-lg py-5 leading-8 text-gray-500" id="text">
         Just got my Full-Stack developer certificate from MSU. I also am a semester away from achieving my Associate&apos;s Degree in IT: Web & Software Development from Western Technical College.
       </p>
     </div>
@@ -42,7 +42,7 @@ const Home = () => {
     </div>
   <div className='text-center'>
     <h3 className='text-3xl py-1'> Services I offer</h3>
-    <p className='text-md py-2 leading-8 text-gray-600 dark:text-gray-300'>I am a Full-Stack developer from Michigan State University. I offer front end and back end web development.</p>
+    <p className='text-md py-2 leading-8 text-gray-500'>I am a Full-Stack developer from Michigan State University. I offer front end and back end web development.</p>
   </div>
 </section>
   )
