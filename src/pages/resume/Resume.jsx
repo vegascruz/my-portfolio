@@ -2,7 +2,7 @@ import React from 'react'
 import './resume.css'
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
-import filePDF from './IT Resume.pdf'
+import filePDF from './IT Resume-2024.pdf'
 
 const Resume = () => {
   return (
